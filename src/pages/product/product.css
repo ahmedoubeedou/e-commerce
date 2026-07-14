@@ -1,0 +1,47 @@
+.container {
+    background-color: red;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+ .container .header {
+background-color: blueviolet;
+height: 60px;
+overflow-x: hidden;
+}
+
+.container .side-bar {
+  background-color: rgb(45, 108, 108);
+  width:  150px;
+  overflow-x: hidden;
+}
+.container .main {
+    background-color: azure;
+   flex-grow: 1;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap:10px 5px;
+   margin: 4px;
+   padding: 5px;
+   overflow-x: hidden;
+}
+.parent-calc{
+    min-height: calc(100vh - 60px);
+    
+}
+
+@media (max-width:700px){
+   .container .side-bar {
+    display: none;
+   }
+}
+@media (max-width:500px){
+   .container .main {
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    
+   }
+}
