@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+
+.header {
+background-color: #123;
+overflow-x: hidden;
+color: white;
+position: fixed;
+top:0%;
+right: 0%;
+z-index:10;
+left: 0%;
+}
+nav.nav{
+    padding-right: 32px;
+}
+.hover{
+    transition: 0.3s;
+}
+.hover:hover{
+color: maroon;
+letter-spacing: 0.1px;
+text-decoration: underline;
+}
+.list-sider{
+    height: calc(100vh - 140px);
+}
+.sidebare{
+    width:150px;
+    position: fixed;
+left: 0.5%;
+top:13.9%;
+bottom: 0%;
+}
