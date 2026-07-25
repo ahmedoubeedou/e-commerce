@@ -1,6 +1,6 @@
 .container {
     background-color: red;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -41,4 +41,10 @@
     justify-content: center;
     
    }
+}
+@media (min-width:800px) and (max-width:1800px)
+{
+    .side-bar{
+        width:50px;
+    }  
 }

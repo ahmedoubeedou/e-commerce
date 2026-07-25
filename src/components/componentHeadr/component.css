@@ -1,0 +1,7 @@
+@media (max-width:570px)
+{
+.responsive-input{
+    width:  200px !important;
+    margin-right:70px !important ;
+}
+}

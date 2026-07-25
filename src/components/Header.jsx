@@ -23,6 +23,7 @@ export default function Header()
         <Link to="/"><li className="hover">Users</li></Link>
     </ul>
    </nav>
+   <div className="corrige-ui"/>
 </header>
     )
 }
